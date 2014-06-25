@@ -52,7 +52,7 @@ def resolve_colorcode(char):
 def resolve_lightup(string):
 	"read string"
 	for one in string:
-			resolve_colorcode[one]
+			resolve_colorcode(one)
 			
 if __name__ == "__main__":	
 	print 'running LED'
